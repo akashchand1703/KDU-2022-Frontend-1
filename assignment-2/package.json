@@ -1,0 +1,29 @@
+{
+  "name": "kdu-2022-frontend-assignment-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./scripts/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashchand1703/KDU-2022-frontend.git"
+  },
+  "author": "akash.chand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashchand1703/KDU-2022-frontend/issues"
+  },
+  "homepage": "https://github.com/akashchand1703/KDU-2022-frontend#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.4"
+  },
+  "dependencies": {
+    "casual": "^1.6.2",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21"
+  }
+}
