@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home-page.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Home/Twitter</title>
+</head>
+
+<body>
+    <div class="home_page_container">
+        <section class="home_page_container__sidebar">
+            <div class="sidebar__elements">
+                <button class="setting" onclick="addState('account/setting')">
+                    <i class="fad fa-cog"></i>
+                    Setting and Privacy
+                </button>
+            </div>
+        </section>
+        <section class="home_page_container__setting">
+            <div class="setting_header">
+                <h2>Settings</h2>
+            </div>
+            <div class="setting_item isActive" onclick="addYourAccount()">
+                <p>Your account</p>
+                <i class="far fa-chevron-right"></i>
+            </div>
+
+            <div class="setting_item">
+                <p>Twitter Blue</p>
+                <i class="far fa-chevron-right"></i>
+            </div>
+
+            <div class="setting_item">
+                <p>Security and account access</p>
+                <i class="far fa-chevron-right"></i>
+            </div>
+
+            <div class="setting_item">
+                <p>Privacy and safety</p>
+                <i class="far fa-chevron-right"></i>
+            </div>
+
+            <div class="setting_item">
+                <p>Notifications</p>
+                <i class="far fa-chevron-right"></i>
+            </div>
+
+            <div class="setting_item">
+                <p>Accessibility,display, and languages</p>
+                <i class="far fa-chevron-right"></i>
+            </div>
+
+            <div class="setting_item">
+                <p>Additional resources</p>
+                <i class="far fa-chevron-right"></i>
+            </div>
+        </section>
+        <section class="home_page_container__details">
+        </section>
+    </div>
+</body>
+<script src="home-page.js"></script>
+
+</html>
